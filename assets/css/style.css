@@ -222,7 +222,7 @@ textarea{
     border: 1px solid lightgray;
 }
 
-@media only screen and (max-width: 640px){
+@media screen and (max-width: 640px){
     body{
         width: 640px;
     }
@@ -271,3 +271,106 @@ textarea{
         grid-row-start: 3;
         }
 }
+
+@media screen and (min-width: 641px) and (max-width: 768px){
+    body{
+        width: 768px;
+    }
+    header{
+        position: static;
+    }
+    section{
+        width: 720px;
+        margin: 20px 24px 30px 24px;
+    }
+
+    .profile-pic{
+        width: 50%;
+    }
+
+    .title{
+        width: 768px;
+    }
+
+    h1{
+        width: 100%;
+        display: inline;
+        padding-top: 10px;
+        height: 50px;
+    }
+    nav {
+        width: 100%;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .box{
+        width: 45%;
+        margin: 10px;
+    }
+
+    figcaption{
+        width: 100%;    
+    }
+
+    .portfolio-pic{
+        width: 100%;
+        float: left;
+    }
+
+    form{
+        height: 620px;
+    }
+    footer{
+        width: 100%;
+        grid-row-start: 3;
+        }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 980px){
+        body{
+            width: 980px;
+        }
+        header{
+            position: static;
+        }
+
+        h1{
+            margin-left: 24px;
+        }
+
+        nav{
+            margin-right: 24px;
+        }
+        section{
+            width: 700px;
+            margin: 20px 24px 30px 24px;
+        }
+    
+        .profile-pic{
+            width: 50%;
+        }
+    
+        .title{
+            width: 980px;
+        }
+        
+        .box{
+            width: 45%;
+            margin: 10px;
+        }
+
+        .portfolio-pic{
+            width: 100%;
+            float: left;
+        }
+    
+        form{
+            height: 620px;
+        }
+
+        footer{
+            width: 100%;
+            grid-row-start: 3;
+            }
+        }
